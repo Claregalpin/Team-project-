@@ -1,16 +1,23 @@
-section{
+section,ul a{
   font-size: 2vh;
   margin: 0 vw;
   list-style-type: none;
+  text-decoration: none;
+  font-family: monospace;
+
 }
 
 h1{font-size: 6vh;
   text-align: center;
   color: rgb(2, 89, 156);
 }
-li{
+
+ul a{
+  font-size: 2vh;
   margin: 0 vw;
-  list-style-type: none;
+
+  text-decoration: none;
+  font-family: monospace;
 }
 
 h2,h3{
@@ -43,7 +50,7 @@ div {
 }
 
 .card {
-  background-color: green;
+  background-color: white;
   padding: 20px;
   margin-top: 10px;
 }
