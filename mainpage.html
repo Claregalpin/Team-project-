@@ -4,11 +4,13 @@
   <link rel="stylesheet" type="text/css" href="css/mainpage.css">
 </head>
 
+<section>
+  <a href="index.html">Return to homepage</a>
+  </section>
 <title> ECO STUDENT HUB</title>
 
-<body>
+
   <div id="page-wrap">
-    <li><a href="index.html">Return to homepage</a></li>
     <h1 id="top">ECO STUDENT HUB</h1>
 
     <ul>
@@ -18,21 +20,64 @@
       <img src="./polarbearsad.jpg" alt="A local image" width="100%">
     </ul>
 
-<h2 id="one">Blog posts</h2>
-    <p>Bla Bla blog post</p>
-
-    <h2 id="Latest News">Latest news</h2>
-    <p><a href="#top">Return to top</a></p>
-      <p>Bla Bla Latest newst</p>
-
-<h3 id="Tips and Tricks">Tips and Tricks</h3>
-<p><a href="#top">Return to top</a></p>
-  <p>Bla Bla Tips and tricks and form here</p>
-
-<h4 id="Contact">Contact</h4>
-<p><a href="#top">Return to top</a></p>
-  <p>Bla Bla contact us and form here</p>
-
+<div class="row">
+    <div class="card">
+      <h2 id="one">BlOG </h2>
+      <h3> What is a carbon footprint?, Dec 1, 2019</h3>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Some text..</p>
 </div>
-</body>
+
+<div class="card">
+  <h3>Should you go vegetarian?, Sep 2, 2019</h3>
+  <div class="fakeimg" style="height:200px;">Image</div>
+  <p>Some text..</p>
+</div>
+
+<div class="card">
+  <h2>Popular Posts</h2>
+  <div class="fakeimg">Image</div><br>
+  <div class="fakeimg">Image</div><br>
+  <div class="fakeimg">Image</div>
+</div>
+
+<h2 id="Latest News">Latest news</h2>
+    <h4><a href="#top">Return to top</a></h4>
+      <p>Bla Bla Latest news</p>
+
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Contact us for information or to contribute:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="/w3images/map.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+ <h4><a href="#top">Return to top</a></h4>
+   <p>Bla Bla Tips and tricks and form here</p>
+
+<h2 id="Contact">Contact</h2>
+ <h4><a href="#top">Return to top</a></h4>
+  <p>Bla Bla contact us and form here</p></div>
+
 </html>
