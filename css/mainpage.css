@@ -1,3 +1,6 @@
+body{
+  margin: 0vw;
+}
 section,ul a{
   font-size: 2vh;
   margin: 0 vw;
@@ -13,7 +16,7 @@ h1{font-size: 6vh;
 }
 
 ul a{
-  font-size: 2vh;
+  font-size: 3vh;
   margin: 0 vw;
 
   text-decoration: none;
@@ -33,6 +36,13 @@ h4{
 font-size: 1.5vh;
 
 }
+h5,h6{
+  font-size: 4vh;
+  text-align: center;
+  color: rgb(68, 159, 214);
+
+
+}
 
 div {
   font-family: Arial;
@@ -42,8 +52,7 @@ div {
   padding: 20px;
 }
 
-.fakeimg {
-  background-color:
+img {
   width: 100%;
   padding: 20px;
   image-orientation: center;
