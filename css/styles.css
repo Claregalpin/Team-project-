@@ -24,13 +24,13 @@ ul{
 }
 li{
   list-style-type: none;
-  margin: 0 2vw;
+  margin: 0 3vw;
   font-size: 4vh;
 }
 a{
   text-decoration: none;
   color:rgb(91, 109, 41);
-  padding: 2vw;
+  padding: 3vw;
   font-family: monospace;
 
 }
@@ -60,10 +60,13 @@ h1{
   text-align: center;
   font-size: 6vh;
   }
-  h2{  text-align: center;
-    color: rgb(6, 56, 34);
+
+h2{
+  text-align: center;
+  color: rgb(6, 56, 34);
     }
-    h3{
+
+h3{
   text-align: center;
   color: rgb(6, 56, 34);
   font-size: 4vh;
